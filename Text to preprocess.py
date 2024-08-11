@@ -7,7 +7,7 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 def load_dataset(filepath):
        return pd.read_csv(filepath)
 
-filepath = "X:/Rendumshet/car data.csv"
+filepath = " " #add filepath
 data = load_dataset(filepath)
 #print(data.head())
 
